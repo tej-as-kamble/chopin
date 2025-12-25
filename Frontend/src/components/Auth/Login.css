@@ -1,0 +1,109 @@
+.login-left {
+  flex: 1;
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(135deg, #ff4d4f, #ff8c8c);
+  color: #fff;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-left h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.login-left p {
+  font-size: 18px;
+  max-width: 420px;
+  opacity: 0.95;
+}
+
+.login-visual {
+  margin-top: 40px;
+  font-size: 48px;
+}
+
+
+
+.login-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.login-form {
+  width: 100%;
+  padding: 40px;
+  animation: fadeUp 0.6s ease;
+}
+
+.login-form h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  outline: none;
+  border-color: #ff4d4f;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 14px;
+  background: rgb(250, 50, 50);
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.login-form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(255, 77, 79, 0.4);
+}
+
+.login-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+
+
+.login-links {
+  margin-top: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #ff4d4f;
+  cursor: pointer;
+}
+
+
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
