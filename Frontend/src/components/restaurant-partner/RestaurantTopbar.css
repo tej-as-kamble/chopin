@@ -1,0 +1,94 @@
+.rd-topbar {
+  height: 72px;
+  padding: 0 28px;
+  background: linear-gradient(360deg, #ffefd5, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+
+.rd-topbar-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.rd-restaurant-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.rd-restaurant-id {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+
+.rd-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+.rd-status-badge {
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.rd-status-badge.online {
+  background: rgba(34, 197, 94, 0.3);
+  color: #16a34a;
+}
+
+.rd-status-badge.offline {
+  background: rgba(239, 68, 68, 0.3);
+  color: #dc2626;
+}
+
+
+.rd-switch {
+  position: relative;
+  width: 46px;
+  height: 24px;
+}
+
+.rd-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.rd-slider {
+  position: absolute;
+  inset: 0;
+  background: #e5e7eb;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.rd-slider::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  left: 3px;
+  bottom: 3px;
+  background: white;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.rd-switch input:checked+.rd-slider {
+  background: #22c55e;
+}
+
+.rd-switch input:checked+.rd-slider::before {
+  transform: translateX(22px);
+}

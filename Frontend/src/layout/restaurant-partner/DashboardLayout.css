@@ -1,0 +1,25 @@
+.rd-layout {
+  display: flex;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1b096c, #02092c);
+}
+
+.rd-main-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  background: rgb(250 250 235);
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.25);
+  height: calc(100vh - 32px);
+}
+
+.rd-main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-bottom: 20px;
+  overflow-y: auto;
+}

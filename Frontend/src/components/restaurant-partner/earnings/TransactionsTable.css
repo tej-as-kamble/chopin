@@ -1,0 +1,42 @@
+.transactions-table {
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  overflow-y: auto;
+}
+
+.transactions-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table thead {
+  position: sticky;
+  top: 0;
+  background: #f1f5f9;
+  z-index: 2;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: 14px;
+  font-size: 14px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.transactions-table th {
+  background: #f1f5f9;
+  text-align: left;
+  color: #475569;
+}
+
+.paid {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.pending {
+  color: #f97316;
+  font-weight: 600;
+}

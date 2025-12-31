@@ -1,0 +1,12 @@
+.terms-checkbox {
+  display: flex;
+  gap: 10px;
+  font-size: 13px;
+  color: #475569;
+  align-items: flex-start;
+}
+
+.terms-checkbox input {
+  accent-color: #6366f1;
+  margin-top: 2px;
+}

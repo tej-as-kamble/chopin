@@ -1,0 +1,13 @@
+.rd-orders-page {
+  position: sticky;
+  top: 0;
+  background: #fff8f8;
+  z-index: 1000
+}
+
+.rd-orders-layout {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}

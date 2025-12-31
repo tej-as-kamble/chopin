@@ -1,0 +1,23 @@
+.schedule-page {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+}
+
+.schedule-left {
+  flex: 1;
+}
+
+.schedule-left h2 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.boundary-box {
+  background: #eef2ff;
+  color: #3730a3;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}

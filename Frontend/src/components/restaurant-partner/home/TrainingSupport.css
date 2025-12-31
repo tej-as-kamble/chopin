@@ -1,0 +1,18 @@
+.restp-training-fancy {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 100px 10%;
+  background: #fef9f5;
+}
+
+.restp-training-text h2 {
+  font-size: 36px;
+  margin-bottom: 14px;
+}
+
+.restp-training-image img {
+  width: 450px;
+  border-radius: 20px;
+  animation: restpFloat 6s ease-in-out infinite;
+}

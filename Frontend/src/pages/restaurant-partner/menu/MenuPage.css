@@ -1,0 +1,17 @@
+.rm-menu-layout {
+  display: flex;
+  height: calc(100vh - 72px);
+  overflow: hidden;
+}
+
+.rm-menu-content {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+}
+
+.rm-chef-img {
+  margin: 48px auto;
+  user-select: none;
+}

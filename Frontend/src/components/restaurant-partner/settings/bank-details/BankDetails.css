@@ -1,0 +1,71 @@
+.bd-wrapper {
+    padding: 32px;
+}
+
+.bd-card {
+    width: 100%;
+    max-width: 640px;
+}
+
+.bd-view {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.bd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bd-status {
+    padding: 4px 12px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.bd-status.verified {
+    background: #76dc9a;
+    color: #166534;
+}
+
+.bd-status.pending {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.bd-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+.bd-row span {
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.bd-edit-btn {
+    margin-top: 20px;
+    padding: 10px 16px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.bd-edit-btn:disabled {
+    background: #c7c7c7;
+    cursor: not-allowed;
+}
+
+.bd-info {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #92400e;
+}

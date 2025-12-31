@@ -1,0 +1,34 @@
+.restp-why-fancy {
+  padding: 100px 10%;
+  background: #fff7f5;
+  text-align: center;
+}
+
+.restp-why-fancy h2 {
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.restp-why-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.restp-why-card {
+  background: white;
+  padding: 28px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restp-why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.15);
+}
+
+.restp-card-icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}

@@ -1,0 +1,203 @@
+.rs-sidebar {
+  width: 280px;
+  height: 100vh;
+  color: #eef2ff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0 70px 0px;
+  transition: width 0.3s ease;
+}
+
+.rs-sidebar.collapsed {
+  width: 32px;
+}
+
+
+.rs-logo {
+  height: 72px;
+  padding: 18px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.rs-sidebar.collapsed .rs-logo {
+  justify-content: center;
+}
+
+.rs-logo-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+
+.rs-toggle-btn {
+  background: none;
+  border: none;
+  color: #c7d2fe;
+  cursor: pointer;
+}
+
+.rs-toggle-btn svg {
+  font-size: 22px;
+  min-width: 18px;
+}
+
+.rs-toggle-btn:hover {
+  color: #ffffff;
+}
+
+
+.rs-nav {
+  flex: 1;
+  padding: 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  overflow: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.18) transparent;
+}
+
+
+.rs-link {
+  padding: 12px 16px;
+  border-radius: 10px;
+  color: #c7d2fe;
+  text-decoration: none;
+  font-size: 14.5px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: all 0.25s ease;
+}
+
+.rs-link svg {
+  font-size: 18px;
+  min-width: 18px;
+}
+
+.rs-link:hover {
+  background: rgba(99, 102, 241, 0.18);
+  transform: translateX(4px);
+}
+
+.rs-link.active {
+  background: rgba(99, 102, 241, 0.28);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+.rs-sidebar.collapsed .rs-link {
+  justify-content: center;
+}
+
+.rs-sidebar.collapsed .rs-nav,
+.rs-sidebar.collapsed .rs-logo-text {
+  display: none;
+}
+
+.rs-sidebar.collapsed .rs-settings {
+  opacity: 0;
+  pointer-events: none;
+}
+
+
+.rs-disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+
+.rs-settings {
+  width: 280px;
+  position: absolute;
+  z-index: 1001;
+  bottom: 0px;
+  padding: 12px 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  background: #02092c;
+  transition: width 0.3s ease;
+}
+
+.rs-settings.collapsed {
+  width: 32px;
+}
+
+
+.rs-settings-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #eef2ff;
+  font-size: 14.5px;
+  font-weight: 600;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.rs-settings-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rs-settings-left svg {
+  font-size: 18px;
+  min-width: 18px;
+}
+
+.rs-updown-icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.rs-updown-icon.open {
+  transform: rotate(180deg);
+}
+
+
+.rs-settings-menu {
+  position: relative;
+  padding: 10px;
+  background: rgba(2, 9, 44, 0.8);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  animation: slideUp 0.25s ease;
+}
+
+.rs-settings-menu a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13.5px;
+  color: #c7d2fe;
+  text-decoration: none;
+}
+
+.rs-settings-menu a:hover {
+  background: rgba(99, 102, 241, 0.2);
+}
+
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

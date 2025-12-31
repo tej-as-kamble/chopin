@@ -1,0 +1,84 @@
+.restp-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.restp-navbar-inner {
+  margin: 0 auto;
+  padding: 10px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-and-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbar-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.navbar-app-name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.restp-navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.restp-navbar-link {
+  font-size: 15px;
+  font-weight: 500;
+  color: #374151;
+  text-decoration: none;
+  position: relative;
+}
+
+.restp-navbar-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: #1b096c;
+  transition: width 0.3s ease;
+}
+
+.restp-navbar-link:hover::after {
+  width: 100%;
+}
+
+.restp-navbar-btn {
+  padding: 6px 14px;
+  background: #1b096c;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.restp-navbar-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(255, 87, 34, 0.4);
+}
+
+@media (max-width: 800px) {
+  .navbar-app-name {
+    display: none;
+  }
+}

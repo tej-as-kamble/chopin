@@ -1,0 +1,48 @@
+.hp-page {
+    padding: 24px;
+    animation: fadeUp 0.4s ease;
+}
+
+.hp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.hp-tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.hp-tabs button {
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+    background: #e5e7eb;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.hp-tabs .active {
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    color: white;
+}
+
+.hp-support-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

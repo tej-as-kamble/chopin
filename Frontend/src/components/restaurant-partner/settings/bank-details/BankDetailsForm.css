@@ -1,0 +1,50 @@
+.bd-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bd-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.bd-grid input {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+}
+
+.bd-grid input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+
+.bd-helper {
+  margin: 12px 0;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.bd-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.bd-save {
+  background: #16a34a;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.bd-cancel {
+  background: #e5e7eb;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

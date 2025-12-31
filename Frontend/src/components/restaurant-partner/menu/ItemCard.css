@@ -1,0 +1,36 @@
+.rm-item-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 12px;
+  cursor: pointer;
+  border: 1px solid #e5e7eb;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    border 0.15s ease;
+}
+
+.rm-item-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.1);
+  border-color: transparent;
+}
+
+.rm-item-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.rm-item-card h4 {
+  margin: 12px 0 4px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #111827;
+}
+
+.rm-item-card p {
+  font-size: 14px;
+  color: #6b7280;
+}

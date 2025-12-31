@@ -1,0 +1,11 @@
+.restp-trust-fancy {
+  text-align: center;
+  padding: 100px 10%;
+  background: linear-gradient(180deg, #1b096c, #02092c);
+  color: white;
+}
+
+.restp-trust-fancy h2 {
+  font-size: 38px;
+  margin-bottom: 18px;
+}

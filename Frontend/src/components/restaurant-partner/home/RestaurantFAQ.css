@@ -1,0 +1,28 @@
+.restp-faq-fancy {
+  padding: 100px 10%;
+  background: #ffffff;
+}
+
+.restp-faq-fancy h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 28px;
+}
+
+.restp-faq-fancy details {
+  margin-bottom: 14px;
+  border-radius: 12px;
+  padding: 14px 20px;
+  background: #f9fafb;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.restp-faq-fancy details:hover {
+  transform: translateY(-2px);
+}
+
+.restp-faq-fancy summary {
+  font-size: 18px;
+  font-weight: 600;
+}

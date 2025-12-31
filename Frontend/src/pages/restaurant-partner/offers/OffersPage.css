@@ -1,0 +1,32 @@
+.offers-page {
+  padding: 28px;
+  max-width: 1100px;
+}
+
+.offers-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.offers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.create-offer-btn {
+  background: transparent;
+  border: 1px solid #6366f1;
+  color: #6366f1;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.create-offer-btn:hover {
+  background: #eef2ff;
+}

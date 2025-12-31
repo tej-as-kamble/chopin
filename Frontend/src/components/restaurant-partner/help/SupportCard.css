@@ -1,0 +1,43 @@
+.sp-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 22px;
+  text-align: center;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.sp-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 28px 60px rgba(0, 0, 0, 0.14);
+}
+
+.sp-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.sp-name {
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.sp-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sp-info a {
+  color: #6366f1;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.sp-hours {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #6b7280;
+}

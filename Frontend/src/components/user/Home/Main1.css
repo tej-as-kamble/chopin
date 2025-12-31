@@ -1,0 +1,253 @@
+.main1 {
+    height: 80vh;
+    width: 100%;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: linear-gradient(135deg, #ffefd5, #ffffff);
+}
+
+
+.main1-left {
+    flex: 1;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.main1-left h1 {
+    font-family: cursive;
+    font-size: 42px;
+}
+
+.main1-left p {
+    color: #666;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+
+.main1-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+}
+
+.main1-btn1 {
+    width: 40%;
+    padding: 12px 26px;
+    background-color: rgb(250, 50, 50);
+    color: #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.btn1-arrow {
+    font-size: 20px;
+}
+
+.main1-btn2 {
+    width: 25%;
+    padding: 12px 26px;
+    background: transparent;
+    border: 1px solid rgb(250, 50, 50);
+    border-radius: 25px;
+    color: rgb(250, 50, 50);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main1-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.red-square {
+    width: 330px;
+    height: 330px;
+    background: rgb(250, 50, 50);
+    position: relative;
+    border-radius: 50%;
+    transform: rotate(45deg);
+}
+
+
+.center-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+
+.corner-img {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border: 8px solid rgb(250, 50, 50);
+    border-radius: 50%;
+    object-fit: cover;
+    background: #fff;
+}
+
+
+.top-left {
+    top: -35px;
+    left: -35px;
+}
+
+.top-right {
+    top: -35px;
+    right: -35px;
+}
+
+.bottom-left {
+    bottom: -35px;
+    left: -35px;
+}
+
+.bottom-right {
+    bottom: -35px;
+    right: -35px;
+}
+
+
+.main1-btn1,
+.main1-btn2 {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.main1-btn1:hover {
+    transform: translateX(6px);
+    box-shadow: 0 10px 25px rgba(250, 50, 50, 0.4);
+}
+
+.main1-btn2:hover {
+    transform: translateX(4px);
+}
+
+
+.red-square {
+    transition: transform 0.6s ease;
+}
+
+.main1-img:hover .red-square {
+    transform: rotate(45deg) scale(1.05);
+}
+
+
+.corner-img {
+    transition: transform 0.4s ease;
+}
+
+.main1-img:hover .top-left {
+    transform: translate(-10px, -10px);
+}
+
+.main1-img:hover .top-right {
+    transform: translate(10px, -10px);
+}
+
+.main1-img:hover .bottom-left {
+    transform: translate(-10px, 10px);
+}
+
+.main1-img:hover .bottom-right {
+    transform: translate(10px, 10px);
+}
+
+
+.center-img {
+    transition: transform 0.4s ease;
+}
+
+.main1-img:hover .center-img {
+    transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+
+.skeleton-line {
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e6e6e6 37%,
+            #f0f0f0 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+    border-radius: 8px;
+}
+
+.skeleton-line.h1 {
+    width: 70%;
+    height: 44px;
+}
+
+.skeleton-line.p {
+    width: 80%;
+    height: 18px;
+}
+
+.skeleton-btns {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 16px;
+}
+
+.skeleton-btn {
+    height: 44px;
+    border-radius: 25px;
+}
+
+.skeleton-btn.fill {
+    width: 40%;
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e6e6e6 37%,
+            #f0f0f0 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+}
+
+.skeleton-btn.outline {
+    width: 25%;
+    border: 2px solid #e0e0e0;
+}
+
+
+.skeleton-circle {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e6e6e6 37%,
+            #f0f0f0 63%);
+    background-size: 400% 100%;
+    animation: shimmer 1.4s infinite;
+}
+
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0;
+    }
+
+    100% {
+        background-position: -100% 0;
+    }
+}

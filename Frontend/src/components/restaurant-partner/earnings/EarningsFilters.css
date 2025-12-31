@@ -1,0 +1,13 @@
+.earnings-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.earnings-filters input,
+.earnings-filters select {
+  padding: 8px 12px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  background: white;
+}

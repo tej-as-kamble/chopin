@@ -1,0 +1,66 @@
+.rm-add-item {
+    flex: 1;
+    padding: 28px;
+    border-radius: 18px;
+}
+
+.rm-add-item h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #111827;
+}
+
+.rm-add-item label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-bottom: 14px;
+    color: #374151;
+}
+
+.rm-add-item input,
+.rm-add-item select,
+.rm-add-item textarea {
+    margin-top: 6px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.rm-add-item input:focus,
+.rm-add-item select:focus,
+.rm-add-item textarea:focus {
+    outline: none;
+    border-color: #ef4444;
+}
+
+.rm-veg-toggle {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.rm-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.rm-form-actions button {
+    padding: 10px 18px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.rm-form-actions button:first-child {
+    background: #f3f4f6;
+}
+
+.rm-form-actions button:last-child {
+    background: #ef4444;
+    color: #ffffff;
+}

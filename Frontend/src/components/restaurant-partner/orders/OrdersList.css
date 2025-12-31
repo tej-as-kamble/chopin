@@ -1,0 +1,12 @@
+.rd-orders-list {
+  border-radius: 14px;
+  margin: 10px 20px;
+  overflow-y: auto;
+}
+
+.rd-orders-empty {
+  padding: 32px;
+  text-align: center;
+  font-size: 14px;
+  color: #6b7280;
+}

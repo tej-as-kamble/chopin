@@ -1,0 +1,151 @@
+.partner-page {
+  font-family: "Inter", sans-serif;
+  background: #fafafa;
+}
+
+
+.partner-hero {
+  text-align: center;
+  padding: 90px 24px;
+  background: linear-gradient(135deg, #ffefd5, #ffffff);
+}
+
+.partner-hero h1 {
+  font-size: 44px;
+  color: #111827;
+}
+
+.partner-hero p {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #6b7280;
+}
+
+.hero-note {
+  display: block;
+  margin-top: 12px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+
+.primary-btn {
+  display: inline-block;
+  margin-top: 28px;
+  padding: 14px 26px;
+  border-radius: 10px;
+  background: #4f46e5;
+  color: #ffffff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.primary-btn:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+
+.partner-section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 70px 24px;
+}
+
+.partner-section h2 {
+  margin-bottom: 30px;
+  color: #111827;
+}
+
+
+.benefit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+}
+
+.benefit-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.benefit-card h3 {
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.benefit-card p {
+  color: #6b7280;
+}
+
+
+.steps {
+  display: grid;
+  gap: 16px;
+}
+
+.step {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  padding: 18px;
+  border-radius: 12px;
+}
+
+.step span {
+  background: #4f46e5;
+  color: #ffffff;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.download-section {
+  text-align: center;
+  padding: 80px 24px;
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+}
+
+.download-note {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+
+.faq-item {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 12px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.faq-answer {
+  margin-top: 10px;
+  color: #4b5563;
+}
+
+
+@media (max-width: 768px) {
+  .partner-hero h1 {
+    font-size: 34px;
+  }
+}

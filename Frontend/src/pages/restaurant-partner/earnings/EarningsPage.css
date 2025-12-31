@@ -1,0 +1,13 @@
+.earnings-page {
+  display: flex;
+  flex-direction: column;
+  padding: 28px;
+  min-height: 100%;
+}
+
+.earnings-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #0f172a;
+}
