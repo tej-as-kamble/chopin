@@ -1,0 +1,6 @@
+.op-context-link {
+    display: flex;
+    gap: 4px;
+    color: blue;
+    text-decoration: underline;
+}

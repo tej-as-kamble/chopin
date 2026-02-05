@@ -1,0 +1,47 @@
+.srp-emergency-wrapper {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.srp-emergency-icon-area {
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.srp-emergency-content {
+  flex: 1;
+}
+
+.srp-emergency-content h4 {
+  color: #991b1b;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
+.srp-emergency-content p {
+  color: #b91c1c;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.srp-btn-shutdown {
+  background: white;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.srp-btn-shutdown:hover {
+  background: #ef4444;
+  color: white;
+}

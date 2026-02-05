@@ -1,0 +1,51 @@
+.verification-form-group {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.verification-form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
+
+.verification-form-input,
+.verification-form-select,
+.verification-form-textarea {
+    padding: 0.625rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.verification-form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.verification-radio-group,
+.verification-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.verification-radio-option,
+.verification-checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #374151;
+    cursor: pointer;
+}
+
+.verification-error-text {
+    color: #dc2626;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}

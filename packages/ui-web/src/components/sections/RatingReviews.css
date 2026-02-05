@@ -1,0 +1,92 @@
+.ui-rating-reviews-container {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.ui-rating-reviews-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ui-rating-reviews-rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.ui-rating-reviews-rating-value {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: bold;
+}
+
+.ui-rating-reviews-rating p {
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.ui-rating-reviews-star {
+    color: rgb(255, 204, 0);
+}
+
+.ui-rating-reviews-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ui-rating-reviews-order-link {
+    margin-left: 4px;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+    text-decoration: underline;
+}
+
+.ui-rating-reviews-order-link:hover {
+    color: #133593;
+}
+
+.ui-rating-reviews-card {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(240, 234, 234);
+}
+
+.ui-rating-reviews-card:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.ui-rating-reviews-person-info {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #111827;
+    font-weight: 500;
+}
+
+.ui-rating-reviews-person-info p {
+    font-size: 12px;
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.ui-rating-reviews-content {
+    margin-left: 24px;
+    font-size: 12px;
+}
+
+.ui-rating-reviews-no-reviews {
+    font-size: 13px;
+    color: #9ca3af;
+    font-style: italic;
+}

@@ -1,0 +1,13 @@
+.slot-page-container {
+    height: 100%;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slot-page-calender {
+    display: flex;
+    justify-content: center;
+    padding: 12px;
+}

@@ -1,0 +1,61 @@
+.rest-details-form-group {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.rest-details-form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.4rem;
+}
+
+
+.rest-details-form-input,
+.rest-details-form-select,
+.rest-details-form-textarea {
+    padding: 0.625rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.rest-details-form-input:focus,
+.rest-details-form-select:focus,
+.rest-details-form-textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.rest-details-form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+
+.rest-details-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.rest-details-checkbox-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #374151;
+    cursor: pointer;
+}
+
+.rest-details-error-text {
+    color: #dc2626;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}

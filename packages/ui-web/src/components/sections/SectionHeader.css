@@ -1,0 +1,16 @@
+.ui-section-header {
+    padding: 16px 20px;
+    background: var(--sb-bg);
+    color: var(--sb-text-main);
+    border-bottom: 1px solid #e5e7eb;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.ui-section-header svg {
+    font-size: 20px;
+    color: rgb(236, 240, 241);
+}

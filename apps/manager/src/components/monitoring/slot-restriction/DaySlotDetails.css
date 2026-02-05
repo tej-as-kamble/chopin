@@ -1,0 +1,74 @@
+.srp-details-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.srp-details-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+
+.srp-details-header p {
+  font-size: 13px;
+  color: #64748b;
+}
+
+.srp-details-header button {
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.srp-btn-edit {
+  background: #0f172a;
+}
+
+.srp-btn-edit:hover {
+  background: #2d3443;
+}
+
+.srp-btn-save {
+  background: #d72c0a;
+}
+
+.srp-btn-save:hover {
+  background: #b93c24;
+}
+
+
+.srp-inputs-row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.srp-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.srp-input-group label {
+  font-size: 12px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+
+.srp-input-group input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 14px;
+  color: #0f172a;
+  background: #f8fafc;
+}

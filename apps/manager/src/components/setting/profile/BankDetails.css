@@ -1,0 +1,42 @@
+.bank-card {
+    padding: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bank-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.bank-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.bank-row.full {
+    grid-column: span 2;
+}
+
+.bank-row label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+}
+
+.value-box {
+    background: #f8fafc;
+    padding: 6px 12px;
+    border-radius: var(--radius-sm);
+    color: var(--text-primary);
+    font-size: 14px;
+    border: 1px solid transparent;
+}
+
+.value-box.mono {
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: 0.5px;
+}

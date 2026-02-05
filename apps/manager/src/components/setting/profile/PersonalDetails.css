@@ -1,0 +1,77 @@
+.pd-card {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pd-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.pd-avatar {
+    width: 64px;
+    height: 64px;
+    background-color: var(--accent-indigo);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pd-title-group {
+    flex: 1;
+}
+
+.pd-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0;
+    line-height: 1.2;
+}
+
+.pd-role {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.pd-badge {
+    background: #def7ec;
+    color: #03543f;
+    padding: 4px 12px;
+    border-radius: 99px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pd-grid {
+    padding-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px 12px;
+}
+
+.pd-item label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.pd-item p {
+    font-size: 14px;
+    color: var(--text-primary);
+    font-weight: 500;
+    margin: 0;
+}

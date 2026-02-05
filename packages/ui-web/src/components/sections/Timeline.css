@@ -1,0 +1,43 @@
+.ui-timeline-wrapper {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.ui-timeline-body {
+    padding: 20px;
+}
+
+.ui-timeline-item {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 16px;
+    border-left: 2px solid #e5e7eb;
+}
+
+.ui-timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -5px;
+    top: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #9ca3af;
+}
+
+.ui-timeline-label {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ui-timeline-note {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.ui-timeline-details {
+    font-size: 12px;
+    color: #9ca3af;
+}

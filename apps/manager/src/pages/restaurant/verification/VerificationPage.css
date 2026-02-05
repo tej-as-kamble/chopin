@@ -1,0 +1,12 @@
+.v-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+}
+
+.rvp-pending {
+    background: #e6e9eb;
+    padding: 2px 8px;
+    border-radius: 6px;
+}

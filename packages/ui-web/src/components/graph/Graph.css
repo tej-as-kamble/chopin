@@ -1,0 +1,132 @@
+.graphs-section {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.chart-card {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    border: 1px solid #f1f5f9;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 320px;
+}
+
+.chart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.chart-title-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    letter-spacing: -0.01em;
+}
+
+.chart-subtitle {
+    margin: 4px 0 0;
+    font-size: 0.8rem;
+    color: #64748b;
+    font-weight: 400;
+}
+
+.chart-controls {
+    display: flex;
+    align-items: center;
+}
+
+.chart-select {
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    color: #475569;
+    background-color: #f8fafc;
+    outline: none;
+    cursor: pointer;
+    transition: border 0.2s;
+}
+
+.chart-select:hover {
+    border-color: #cbd5e1;
+}
+
+.live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #f5f3ff;
+    color: #7c3aed;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}
+
+.live-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #7c3aed;
+    border-radius: 50%;
+    animation: pulse-animation 2s infinite;
+}
+
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0 rgba(124, 58, 237, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 6px rgba(124, 58, 237, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(124, 58, 237, 0);
+    }
+}
+
+.chart-body {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    min-height: 0;
+}
+
+.graph-tooltip {
+    background-color: #1e293b;
+    padding: 10px 14px;
+    border-radius: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #334155;
+    color: #fff;
+}
+
+.tooltip-label {
+    margin: 0;
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.tooltip-value {
+    margin: 2px 0 0;
+    font-size: 1.1rem;
+    font-weight: 700;
+}

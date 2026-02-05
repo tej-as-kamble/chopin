@@ -1,0 +1,64 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+.priority-critical {
+    background-color: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fee2e2;
+}
+
+.priority-high {
+    background-color: #fff7ed;
+    color: #ea580c;
+    border: 1px solid #ffedd5;
+}
+
+.priority-medium {
+    background-color: #f0f9ff;
+    color: #0284c7;
+    border: 1px solid #e0f2fe;
+}
+
+.priority-low {
+    background-color: #f8fafc;
+    color: #64748b;
+    border: 1px solid #e2e8f0;
+}
+
+.sla-breached {
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.sla-at-risk {
+    color: #d97706;
+}
+
+.sla-safe {
+    color: #16a34a;
+}
+
+
+.status-open {
+    background-color: #eff6ff;
+    color: #2563eb;
+}
+
+.status-resolved {
+    background-color: #f0fdf4;
+    color: #16a34a;
+}
+
+.status-pending {
+    background-color: #fefce8;
+    color: #ca8a04;
+}

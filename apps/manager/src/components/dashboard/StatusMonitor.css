@@ -1,0 +1,27 @@
+.dashboard-status-monitor {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-status-info p {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+.dashboard-status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(245, 158, 11, 0.1);
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.dashboard-status-text {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--accent-amber);
+  text-transform: uppercase;
+}

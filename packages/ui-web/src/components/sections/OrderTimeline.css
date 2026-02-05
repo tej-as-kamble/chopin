@@ -1,0 +1,89 @@
+.ui-order-timeline-wrapper {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ui-order-timeline-wrapper::before {
+    content: '';
+    position: absolute;
+    top: 86px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background: #e2e8f0;
+    z-index: 0;
+}
+
+.ui-order-timeline-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.ui-order-timeline-container::-webkit-scrollbar {
+    height: 4px;
+}
+
+.ui-order-timeline-container::-webkit-scrollbar-thumb {
+    background-color: #cbd5e1;
+    border-radius: 4px;
+}
+
+
+.ui-order-timeline-step {
+    min-width: 80px;
+    position: relative;
+    z-index: 1;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.ui-order-timeline-step-label {
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.ui-order-timeline-step-time {
+    font-size: 0.75rem;
+    color: #94a3b8;
+}
+
+
+.ui-order-timeline-step-dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    border: 2px solid #cbd5e1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.ui-order-timeline-step-active .ui-order-timeline-step-dot {
+    color: white;
+    background: #FDA913;
+    border-color: #FDA913;
+}
+
+
+.ui-order-timeline-step-completed .ui-order-timeline-step-dot {
+    background: #22c55e;
+    border-color: #22c55e;
+    color: white;
+}
+
+.ui-order-timeline-step-active .ui-order-timeline-step-label {
+    color: #0f172a;
+    font-weight: 700;
+}

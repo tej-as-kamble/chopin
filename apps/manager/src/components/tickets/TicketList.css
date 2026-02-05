@@ -1,0 +1,74 @@
+.tl-source-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tl-source-badge.restaurant {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.tl-source-badge.delivery-partner {
+    background: #fef3c7;
+    color: #b45309;
+}
+
+.tl-source-badge.customer {
+    background: #f1f5f9;
+    color: #475569;
+}
+
+.tl-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.priority-high {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.priority-medium {
+    background: #ffedd5;
+    color: #c2410c;
+}
+
+.priority-low {
+    background: #ecfccb;
+    color: #4d7c0f;
+}
+
+.tl-status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.status-open {
+    background-color: #3b82f6;
+}
+
+.status-in-progress {
+    background-color: #eab308;
+}
+
+.status-resolved {
+    background-color: #22c55e;
+}
+
+.pill-icon {
+    font-size: 12px;
+}

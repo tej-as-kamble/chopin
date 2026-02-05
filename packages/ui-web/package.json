@@ -1,0 +1,21 @@
+{
+    "name": "@chopin/ui-web",
+    "version": "0.0.1",
+    "private": true,
+    "sideEffects": false,
+    "exports": {
+        ".": "./src/index.js"
+    },
+    "peerDependencies": {
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0",
+        "react-router-dom": "^7.12.0"
+    },
+    "dependencies": {
+        "clsx": "^2.1.1",
+        "framer-motion": "^12.23.26",
+        "react-calendar": "^6.0.0",
+        "react-icons": "^5.5.0",
+        "recharts": "^3.6.0"
+    }
+}

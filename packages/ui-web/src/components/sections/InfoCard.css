@@ -1,0 +1,29 @@
+.ui-info-card {
+    overflow: hidden;
+}
+
+.ui-info-card.border {
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.ui-info-card-body {
+    padding: 20px;
+}
+
+.ui-info-card-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+.ui-info-card-label {
+    color: #6b7280;
+    font-weight: 500;
+}
+
+.ui-info-card-value {
+    color: #111827;
+    font-weight: 500;
+}

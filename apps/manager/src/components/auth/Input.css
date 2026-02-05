@@ -1,0 +1,11 @@
+.auth-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.auth-input-group label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}

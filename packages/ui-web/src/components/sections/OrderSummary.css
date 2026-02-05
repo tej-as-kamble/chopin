@@ -1,0 +1,58 @@
+.ui-order-summary-container {
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.ui-order-summary-body {
+    padding: 20px 20px 8px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ui-order-summary-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ui-order-summary-item,
+.ui-order-summary-price,
+.ui-order-summary-bill {
+    display: flex;
+    align-items: center;
+}
+
+.ui-order-summary-item {
+    gap: 4px;
+}
+
+.ui-order-summary-bill {
+    padding: 12px 0px;
+    border-top: 1px solid rgba(0, 0, 0, 0.241);
+    justify-content: space-between;
+}
+
+.ui-order-summary-item svg {
+    color: red;
+}
+
+.ui-order-summary-item p,
+.ui-order-summary-price p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.ui-order-summary-price svg {
+    font-size: 12px;
+}
+
+.ui-order-summary-bill svg {
+    font-size: 14px;
+}
+
+.ui-order-summary-bill p {
+    font-size: 16px;
+    font-weight: 600;
+}

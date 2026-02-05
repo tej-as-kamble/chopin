@@ -1,0 +1,51 @@
+.ticket-form-group {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticket-form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.5rem;
+}
+
+.ticket-form-input,
+.ticket-form-select,
+.ticket-form-textarea {
+    padding: 0.625rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ticket-form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.ticket-radio-group,
+.ticket-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ticket-radio-option,
+.ticket-checkbox-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #374151;
+    cursor: pointer;
+}
+
+.ticket-error-text {
+    color: #dc2626;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}

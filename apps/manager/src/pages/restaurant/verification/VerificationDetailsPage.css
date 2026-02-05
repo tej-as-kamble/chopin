@@ -1,0 +1,36 @@
+.rvd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.verification-context-link {
+    display: flex;
+    gap: 4px;
+    color: blue;
+    text-decoration: underline;
+}
+
+
+.rvd-doc-link {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rvd-doc-link:hover {
+    text-decoration: underline;
+}
+
+.rvd-ocr-pass {
+    color: #16a34a;
+    font-size: 11px;
+}
+
+.rvd-ocr-fail {
+    color: #dc2626;
+    font-size: 11px;
+}

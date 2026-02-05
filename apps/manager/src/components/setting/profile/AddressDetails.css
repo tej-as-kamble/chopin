@@ -1,0 +1,38 @@
+.addr-card {
+    padding: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.addr-street {
+    font-size: 16px;
+    color: var(--text-primary);
+    margin: 0 0 8px 0;
+    line-height: 1.5;
+}
+
+.addr-line {
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin: 0 0 4px 0;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    color: var(--text-secondary);
+    padding: 8px 16px;
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    font-size: 13px;
+    width: 100%;
+    transition: all 0.2s;
+}
+
+.btn-secondary:hover {
+    background: #f7fafc;
+    border-color: #cbd5e0;
+    color: var(--text-primary);
+}

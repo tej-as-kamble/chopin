@@ -1,0 +1,18 @@
+.v-list-layout {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.v-badge.pending {
+    color: blue;
+}
+
+.v-badge.approved {
+    color: green;
+}
+
+.v-badge.rejected {
+    color: red;
+}

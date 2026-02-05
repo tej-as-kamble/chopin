@@ -1,0 +1,35 @@
+.orders-page {
+  --orp-bg-app: #f4f6f8;
+  --orp-bg-card: #ffffff;
+  --orp-text-primary: #2c3e50;
+  --orp-text-secondary: #64748b;
+  --orp-text-muted: #94a3b8;
+
+  --orp-border-subtle: #e2e8f0;
+  --orp-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --orp-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  --orp-status-placed-bg: #e0f2fe;
+  --orp-status-placed-text: #0369a1;
+  --orp-status-prep-bg: #fff7ed;
+  --orp-status-prep-text: #c2410c;
+  --orp-status-ready-bg: #f0fdf4;
+  --orp-status-ready-text: #15803d;
+  --orp-status-out-bg: #eff6ff;
+  --orp-status-out-text: #1d4ed8;
+  --orp-status-delivered-bg: #f8fafc;
+  --orp-status-delivered-text: #475569;
+  --orp-status-cancelled-bg: #fef2f2;
+  --orp-status-cancelled-text: #991b1b;
+
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--orp-bg-app);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orders-page * {
+  box-sizing: border-box;
+}

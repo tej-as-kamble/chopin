@@ -1,0 +1,15 @@
+:root {
+  --sb-primary: #2dd4bf;
+  --sb-primary-soft: rgba(45, 212, 191, 0.1);
+
+  --sb-bg: #1e1e1e;
+  --sb-bg-secondary: #2d2d2d;
+
+  --sb-text-main: #e2e8f0;
+  --sb-text-muted: #94a3b8;
+  --sb-text-light: #475569;
+
+  --sb-border: #3f3f46;
+  --sb-shadow: 4px 0 24px rgba(0, 0, 0, 0.5);
+  --sb-card-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,11 @@
+.ui-back-btn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  font-weight: 600;
+  color: #4b5563;
+  cursor: pointer;
+  font-size: 14px;
+}

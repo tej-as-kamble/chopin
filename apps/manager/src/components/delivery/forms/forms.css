@@ -1,0 +1,61 @@
+.part-details-form-group {
+    margin-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.part-details-form-label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 0.4rem;
+}
+
+
+.part-details-form-input,
+.part-details-form-select,
+.part-details-form-textarea {
+    padding: 0.625rem;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 0.875rem;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.part-details-form-input:focus,
+.part-details-form-select:focus,
+.part-details-form-textarea:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+}
+
+.part-details-form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+
+.part-details-checkbox-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.part-details-checkbox-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: #374151;
+    cursor: pointer;
+}
+
+.part-details-error-text {
+    color: #dc2626;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
